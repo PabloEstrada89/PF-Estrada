@@ -2,18 +2,15 @@
     background-color: aqua;
     width: 25%;
     text-align: center;
+    .a{
+        font-family: 'Times New Roman', Times, serif;
+    .p{
+            padding: 15px;
+    }
+    }
 }
 
-.cards a{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.cards p{
-    padding: 15px;
-}
-
-.cards a{
-    padding: 15px;
-    align-items: center;
+.container-cards{
+    background-color: blueviolet;
     
 }

@@ -1,22 +1,40 @@
 header {
-  background-color: rgb(25, 64, 64);
   align-items: center;
   justify-content: space-between;
 }
-
 header nav ul {
   list-style-type: none;
   display: flex;
 }
-
 header nav ul li {
   margin: 20px;
   text-align: center;
 }
-
 header nav ul li a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  background-color: darkorange;
+}
+
+a {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(255, 227, 231);
+}
+
+.RRSS {
+  color: blueviolet;
+}
+
+.titulo_rrss {
+  color: green;
 }
 
 .cards {
@@ -24,18 +42,15 @@ header nav ul li a {
   width: 25%;
   text-align: center;
 }
-
-.cards a {
+.cards .a {
   font-family: "Times New Roman", Times, serif;
 }
-
-.cards p {
+.cards .a .p {
   padding: 15px;
 }
 
-.cards a {
-  padding: 15px;
-  align-items: center;
+.container-cards {
+  background-color: blueviolet;
 }
 
 /*# sourceMappingURL=style.css.map */
