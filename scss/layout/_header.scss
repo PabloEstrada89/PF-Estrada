@@ -2,7 +2,9 @@ header{
     background-color: rgb(25, 64, 64);
     align-items: center;
     justify-content: space-between;
-    nav ul{
+    nav {
+        display: none;  
+        ul{
         list-style-type: none;
         display: flex;
         li{
@@ -15,3 +17,4 @@ header{
             }
         }
     }
+}

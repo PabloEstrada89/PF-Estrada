@@ -1,6 +1,10 @@
 header {
+  background-color: rgb(25, 64, 64);
   align-items: center;
   justify-content: space-between;
+}
+header nav {
+  display: none;
 }
 header nav ul {
   list-style-type: none;
@@ -21,12 +25,12 @@ a:hover {
 
 a {
   color: black;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-decoration: none;
 }
 
 footer {
   background-color: rgb(255, 227, 231);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .RRSS {
@@ -51,6 +55,15 @@ footer {
 
 .container-cards {
   background-color: blueviolet;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    align-items: center;
+  }
+  main .carrusel1 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
